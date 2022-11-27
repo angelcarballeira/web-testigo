@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background: linear-gradient(
+    90deg,
+    #3782f2,
+    #1170f4,
+    #005df4,
+    #0047f1,
+    #122beb
+  );
+}
+
+/* LOADER  */
+
+.centrado {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #fff;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+/* MODAL */
+
+.swal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swal-modal {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.swal-text {
+  /* background-color: #fefae3; */
+  padding: 17px;
+  /* border: 1px solid #f0e1a1; */
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962b3;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
