@@ -19,8 +19,6 @@ body {
   );
 }
 
-/* LOADER  */
-
 .centrado {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
@@ -50,14 +48,14 @@ body {
   }
 }
 
-.hidden {
+/* .hidden {
   overflow: hidden;
-}
+} */
 
 /* MODAL */
 
 .swal-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .swal-modal {
@@ -71,15 +69,20 @@ body {
   display: block;
   margin: 22px;
   text-align: center;
-  color: #fff;
-  font-weight: bold;
+  color: #e5e8e8;
+  /* font-weight: bold; */
+  font-size: 25px;
 }
 
 .swal-button {
   padding: 7px 19px;
   border-radius: 2px;
-  background-color: #4962b3;
-  font-size: 12px;
+  background-color: #1d3994;
+  font-size: 16px;
   border: 1px solid #3e549a;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.swal-button:hover {
+  color: #000;
 }
