@@ -54,10 +54,13 @@ body {
   color: #fff;
   width: 100%;
   text-align: center;
-  padding: 10px;
-  font-size: 30px;
+  padding: 7px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* MENU Y NAVBAR  */
@@ -65,7 +68,30 @@ body {
 header {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
+
+main {
+  padding: 15px;
+  margin: 0 20px;
+}
+
+@media (max-width: 760px) {
+  #logo {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 350px) {
+  .titulo {
+    display: block;
+    font-size: 25px;
+    padding: 3px;
+  }
 }
