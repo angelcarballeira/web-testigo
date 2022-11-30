@@ -78,6 +78,9 @@ header {
 main {
   padding: 10px 15px 15px 15px;
   margin: 0 20px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
 }
 
 /* SLIDER  */
@@ -85,9 +88,11 @@ main {
 section div {
   box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
 }
+
 #section-slider {
   display: grid;
   place-content: center;
+  justify-items: center;
 }
 
 .slider {
@@ -114,6 +119,8 @@ ul {
 .slider ul {
   padding: 0;
   display: flex;
+  background-color: rgba(0, 0, 0, 0);
+
   width: 400%; /* Depende cantidad de imagenes*/
 
   /* ANIMACIONES  */
@@ -178,6 +185,6 @@ ul {
 
   main {
     padding: 5px;
-    margin: 0 8px;
+    margin: auto;
   }
 }
