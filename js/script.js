@@ -1,3 +1,3 @@
-// window.onload = function () {
-//   swal({ text: 'Bienvenido a nuestra página', button: 'Ingresar' });
-// };
+window.onload = function () {
+  swal({ text: 'Bienvenido a nuestra página', button: 'Ingresar' });
+};
