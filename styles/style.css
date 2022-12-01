@@ -85,7 +85,7 @@ main {
 
 /* SLIDER  */
 
-section div {
+#section-slider div {
   box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -124,7 +124,7 @@ ul {
   width: 400%; /* Depende cantidad de imagenes*/
 
   /* ANIMACIONES  */
-  animation: cambio 20s infinite alternate linear;
+  animation: cambio 20s infinite normal linear;
 }
 
 @keyframes cambio {
@@ -155,6 +155,70 @@ ul {
   100% {
     margin-left: -300;
   }
+}
+
+/* RESSEÑA / DESCRIPCIÓN  */
+#descripcion {
+  width: 95%;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+#descripcion h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* CARDS  */
+
+#tarjetas {
+  width: 95%;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 300px;
+  margin: 10px;
+  color: #fff;
+  /* background-color: rgb(83, 83, 204, 0.4); */
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid rgb(57, 175, 244);
+  transition: 0.2s;
+}
+
+.card-img {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.card-img img {
+  /* width: 100%; */
+  width: 95%;
+  /* border-radius: 10px 10px 0 0; */
+  border-radius: 50%;
+}
+
+.card-body h2 {
+  text-align: center;
+}
+
+.card-body p {
+  text-align: justify;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.cards:hover {
+  box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
 }
 
 /* MEDIA QUERIES */
