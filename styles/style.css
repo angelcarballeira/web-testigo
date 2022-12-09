@@ -160,6 +160,17 @@ ul {
 }
 
 /* RESSEÑA / DESCRIPCIÓN  */
+#descripcion-txt {
+  color: #fff;
+  font-size: 18px;
+  /* font-weight: bold; */
+  padding: 10px;
+  /* border: 1px solid #000; */
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
 #descripcion {
   width: 95%;
   padding: 5px;
@@ -195,6 +206,7 @@ ul {
   border-radius: 15px;
   border: 1px solid rgb(57, 175, 244);
   transition: 0.2s;
+  padding: 10px;
 }
 
 .card-img {
@@ -207,10 +219,17 @@ ul {
   width: 95%;
   /* border-radius: 10px 10px 0 0; */
   border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+#cargo {
+  text-align: center;
+  font-size: 20px;
 }
 
 .card-body h2 {
   text-align: center;
+  font-size: 20px;
 }
 
 .card-body p {
